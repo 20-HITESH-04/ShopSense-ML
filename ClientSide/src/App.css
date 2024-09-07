@@ -1,0 +1,16 @@
+.app-container{
+  display: flex;
+}
+.content{
+  width:100%
+}
+
+.sidebar{
+  min-height: 800px;
+ font-size: smaller;
+}
+
+.Sidetop{
+  margin-left: 28px;
+  font-size: 1rem;
+}

@@ -1,0 +1,66 @@
+/* frontend/src/components/ProfitPrediction.css */
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-group label {
+  flex: 1; /* Take up as much space as possible */
+  margin-right: 10px; /* Adjust spacing between label and input */
+}
+
+.form-group input,
+.form-group select {
+  flex: 2; /* Take up twice as much space as label */
+}
+
+.ph-area {
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 10px;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.form-control {
+  position: relative;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control:focus + .ph-area,
+.form-control:valid + .ph-area {
+  opacity: 0;
+  top: -5px;
+  left: 2px;
+  font-size: 12px;
+  color: #333;
+}
+
+.btn-primary {
+  margin-right: 10px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+/* Text Gradient Effect */
+.text-gradient {
+  background-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
